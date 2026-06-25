@@ -106,13 +106,13 @@ def plot_Tfusion(t1_start=0, t1_end=20, t2_start=200, t2_end=227):
     plt.show()
 
 # --- Create four sliders in seconds ---
-interact(
+interactive_plot = widgets.interactive(
     plot_Tfusion,
     t1_start=widgets.FloatSlider(value=0, min=0, max=227, step=0.2, description='t1 (s)'),
     t1_end=widgets.FloatSlider(value=20, min=0, max=227, step=0.2, description='t2 (s)'),
     t2_start=widgets.FloatSlider(value=200, min=0, max=227, step=0.2, description='t3 (s)'),
     t2_end=widgets.FloatSlider(value=227, min=0, max=227, step=0.2, description='t4 (s)')
-);
+)
 
 # Display the interactive plot
-#display(interactive_plot)
+display(interactive_plot)
