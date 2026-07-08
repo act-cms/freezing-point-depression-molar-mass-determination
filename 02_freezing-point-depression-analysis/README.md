@@ -1,14 +1,15 @@
-Lesson 01: Lesson Title
+Lesson 02: Freezing Point Depression using a Beckmann Cryoscopic Apparatus
 =======================
 
-The purpose of this lesson is to (brief description of lesson here).
+The purpose of this lesson is to numerically analyze cooling curves to determine the molar mass of an unknown compound.
 
 ## Lesson Information
+
 ### Lesson Learning Outcomes
-At the end of this lesson, students will be able to...
-1. First lesson learning outcome
-2. Second lesson learning outcome
-3. Etc.
+1. Use data slicing and booleans to find relevant information in an array.
+2. Plot and analyze a derivative function interactively.
+3. Compute the molar mass using cooling curves and freezing point depression.
+4. Use Python functions to save time in doing repetitive tasks.
 
 ### Cyberinfrastructure Prerequisites
 
@@ -17,50 +18,36 @@ and/or completed the following modules/lessons available on the ACT-CMS Portal:
 
 * Basic skills in Python programming and syntax
     - [Introduction to Programming for Molecular Scientists](https://act-cms.molssi.org/portal/lessons/foundational-intro-python/)
-* Another set of skills (if necessary)
-    - Linked resource for students to acquire these skills
-* Etc.
-
+	- [Introduction to Programming with Chemical Applications](https://act-cms.molssi.org/portal/lessons/intro-to-programming-with-chem-applications/)
+	
 ### Content Prerequisites
 
 Before beginning this lesson, students are expected to be familiar with the
 following content topics:
 
-* Topic 1 (level of depth)
-* Thermochemistry (first-year general chemistry)
-* Etc.
+* Statistical Measurements (first-year general chemistry and/or analytical chemistry)
+* Derivatives
+* Colligative Properties
 
 ### Resources
 
-* Relevant list of resources for students to access if needed
-* [MolSSI Workshop: Python Scripting for Computational Molecular Sciences](https://education.molssi.org/python_scripting_cms/)
+* [Lab Handout](https://github.com/act-cms/freezing-point-depression-molar-mass-determination/tree/main/02_freezing-point-depression-analysis/cryoscopy_handout.md)
 * [MolSSI CMS Python Workshop: Introduction](https://education.molssi.org/python_scripting_cms/01-introduction/index.html)
-* Etc.
 
 ### References
-
-Portions of this lesson were adapted from: 
-* Lesson citation or reference, with associated link
-* [OpenStax Chemistry 2e](https://openstax.org/details/books/chemistry-2e)
-* Etc.
+* [Lab Handout](https://github.com/act-cms/freezing-point-depression-molar-mass-determination/tree/main/02_freezing-point-depression-analysis/cryoscopy_handout.md)
+* Garland, Nibler, Shoemaker; Experiments in Physical Chemistry 7th ed.
 
 ## Lesson Versions & Intended Modalities
 
-Three versions of this lesson are provided, each with a different intended
+The Student.ipynb file of this lesson and can be implemented with the following
 modality of instruction and associated implementation strategies.
 
 | Modality     | Pedagogy                | Role of Instructor                                                       | Lesson Version            |
 |--------------|-------------------------|---------------------------------------------------------------------------|--------------------------|
-| Asynchronous | Guided Inquiry Learning | N/A (independent student learning)                                       | `student-async.ipynb`     |
-| Synchronous  | Guided Inquiry Learning | Facilitate student process, answer questions, ensure nobody falls behind | `student-sync-gil.ipynb`  |
-| Synchronous  | LiveCoding              | Demonstrate & narrate process, control pacing, etc.                      | `student-sync-live.ipynb` |
+| Asynchronous | Guided Inquiry Learning | N/A (independent student learning)                                       | `Student.ipynb`  |
+| Synchronous  | Guided Inquiry Learning | Facilitate student process, answer questions, ensure nobody falls behind | `Student.ipynb`  |
 
 Also provided to support adopting instructors are
-- `instructor-key.ipynb`: Instructor "key" notebook with completed code cells and full instructor commentary in Markdown cells
-- `instructor-notes.ipynb`: Author notes for adopting instructors, including implementation strategies, common issues & workarounds, piloting notes, etc.
-
-See the `instructor-notes.ipynb` For more information about implementation
-strategies from the lesson author.
-
-
+- `instructor-Key.ipynb`: Instructor "key" notebook with completed code cells and full instructor commentary in Markdown cells
 
