@@ -13,9 +13,9 @@
 > 
 > Python Functions
 
-In 1868, Alfred Nobel was awarded a US patent for inventing a way to safely transport and use the highly explosive compound nitroglycerin. Nitroglycerin shock-detonates with very little provocation, so his novel idea was to mix nitroglycerin with diatomaceous earth (an absorbent filler) making the explosive portable.[^1] His invention was known as dynamite. However, dynamite was still unstable at cold temperatures ($T_\text{fus}$ is 13.5$\degree$C /56.3$\degree$F for nitroglycerin). When the nitroglycerin crystallized, the friction between crystals was enough to provoke detonation. It was found that mixing another liquid explosive, ethylene glycol dinitrate ($T_\text{fus}$ is -23$\degree$C / -9$\degree$F) with the nitroglycerin produced a more stable product. A 50:50 mixture of nitroglycerine with ethylene glycol dinitrate results in a freezing temperature of -20$\degree$C (-4$\degree$F).[^2] This phenomenon is called *freezing point depression*.
+In 1868, Alfred Nobel was awarded a US patent for inventing a way to safely transport and use the highly explosive compound nitroglycerin. Nitroglycerin shock-detonates with very little provocation, so his novel idea was to mix nitroglycerin with diatomaceous earth (an absorbent filler) making the explosive portable.[^1] His invention was known as dynamite. However, dynamite was still unstable at cold temperatures ($T_\text{fus}$ is 13.5 $\degree$ C /56.3 $\degree$ F for nitroglycerin). When the nitroglycerin crystallized, the friction between crystals was enough to provoke detonation. It was found that mixing another liquid explosive, ethylene glycol dinitrate ($T_\text{fus}$ is -23 $\degree$ C / -9 $\degree$ F) with the nitroglycerin produced a more stable product. A 50:50 mixture of nitroglycerine with ethylene glycol dinitrate results in a freezing temperature of -20 $\degree$ C (-4 $\degree$ F).[^2] This phenomenon is called *freezing point depression*.
 
-A common, every-day application of this phenomenon is the "antifreeze" fluid for car engines. Car radiators are filled with a mixture of water and ethylene glycol as a coolant. A 50:50 solution of ethylene glycol and water has a freezing temperature of -37$\degree$C (-34.6$\degree$F) allowing for the coolant to circulate even in sub-zero temperatures.
+A common, every-day application of this phenomenon is the "antifreeze" fluid for car engines. Car radiators are filled with a mixture of water and ethylene glycol as a coolant. A 50:50 solution of ethylene glycol and water has a freezing temperature of -37 $\degree$ C (-34.6 $\degree$ F) allowing for the coolant to circulate even in sub-zero temperatures.
 
 <a id="Fig7-1-Interface"></a>
 
@@ -27,9 +27,9 @@ A common, every-day application of this phenomenon is the "antifreeze" fluid for
 
 ## Thermodynamic Background
 
-The dynamic solid-liquid interface is shown in Figure [7.1](#Fig7-1-Interface). It is dynamic because, at thermal equilibrium and constant pressure, the rate of melting (solid$\rightarrow$liquid) is the same as the rate of freezing (liquid$\rightarrow$solid). The liquid-solid interface is in constant flux with the rates of melting and of freezing in balance. Adding a *solute* to the liquid phase decreases the rate of freezing while not affecting the rate of melting. Thus, with the addition of the solute to the liquid, more of the solid melts until thermal equilibrium may be reached again at a lower temperature.
+The dynamic solid-liquid interface is shown in Figure [7.1](#Fig7-1-Interface). It is dynamic because, at thermal equilibrium and constant pressure, the rate of melting (solid $\rightarrow$ liquid) is the same as the rate of freezing (liquid $\rightarrow$ solid). The liquid-solid interface is in constant flux with the rates of melting and of freezing in balance. Adding a *solute* to the liquid phase decreases the rate of freezing while not affecting the rate of melting. Thus, with the addition of the solute to the liquid, more of the solid melts until thermal equilibrium may be reached again at a lower temperature.
 
-From a qualitative thermodynamic point of view, we can understand freezing point depression by considering $\Delta G_{fus}$ ("fus" is fusion, solid$\rightarrow$liquid) and that addition of a solute to the liquid increases the entropy of the liquid. 
+From a qualitative thermodynamic point of view, we can understand freezing point depression by considering $\Delta G_{fus}$ ("fus" is fusion, solid $\rightarrow$ liquid) and that addition of a solute to the liquid increases the entropy of the liquid. 
 
 $$
 \begin{align}
@@ -37,7 +37,7 @@ $$
 \Delta S_{fus} &= S_{liquid} - S_{solid} \end{align}
 $$
 
- When $S_{liquid}$ increases, so does $\Delta S_{fus}$ ($S_{solid}$ is unchanged by the addition of solute to the liquid). Thus, $\Delta G_{fus}$ becomes more negative, pushing the solid$\rightarrow$liquid equilibrium forward. It is important to note that the decrease in $\Delta G_{fus}$ is not because of a change in $\Delta H_{fus}$ (which would imply a change in the entropy of the surroundings). Rather, $\Delta G_{fus}$ decreases because $\Delta S_{fus}$, that is $\Delta S_\text{SYSTEM}$, increases. Thermodynamic analysis allows for a more quantitative application of the phenomenon of freezing point depression. Return again to the qualitative description of the equilibrium as when the rate of melting (solid$\rightarrow$liquid) is the same as the rate of freezing (liquid$\rightarrow$solid). Thermodynamically, this means that the chemical potential for the substance $A$ is equal in both phases, solid and liquid. 
+ When $S_{liquid}$ increases, so does $\Delta S_{fus}$ ($S_{solid}$ is unchanged by the addition of solute to the liquid). Thus, $\Delta G_{fus}$ becomes more negative, pushing the solid $\rightarrow$ liquid equilibrium forward. It is important to note that the decrease in $\Delta G_{fus}$ is not because of a change in $\Delta H_{fus}$ (which would imply a change in the entropy of the surroundings). Rather, $\Delta G_{fus}$ decreases because $\Delta S_{fus}$, that is $\Delta S_\text{SYSTEM}$, increases. Thermodynamic analysis allows for a more quantitative application of the phenomenon of freezing point depression. Return again to the qualitative description of the equilibrium as when the rate of melting (solid $\rightarrow$ liquid) is the same as the rate of freezing (liquid $\rightarrow$ solid). Thermodynamically, this means that the chemical potential for the substance $A$ is equal in both phases, solid and liquid. 
 
 $$
 \mu_A(s) = \mu_A(l)
@@ -46,18 +46,18 @@ $$
  The solid will be considered a pure substance while the liquid is treated as an ideal solution with the solvent mole fraction, $\chi_A$.[^3] 
 
 $$
-\mu_{A^*(s)}=\mu_{A^*(l)} + RTln\chi_A
+\mu_{A}^{\*}(s)=\mu_{A}^{\*}(l) + RTln\chi_A
 $$
 
  Since the chemical potential, $\mu$, is the molar Gibbs energy, $G_m$, we can rewrite Equation [7.4](#Eq7-4-ChemPotChi) as follows.
 
 $$
 \begin{align}
-\mu_{A^*(s)} - \mu_{A^*(l)} &= -\Delta G_{fus} = RTln\chi_A \\
+\mu_{A}^{\*}(s) - \mu_{A}^{\*}(l) &= -\Delta G_{fus} = RTln\chi_A \\
 -\dfrac{\Delta G_{fus}}{RT} &= ln\chi_A \end{align}
 $$
 
-Recognizing and using Taylor series and Maclaurin series is an important take-away from 2nd semester Physical Chemistry. Let $\chi_B$ be the mole fraction of the *solute*, $B$. If $\chi_B \ll$1 , then we may make the following reduction: 
+Recognizing and using Taylor series and Maclaurin series is an important take-away from 2nd semester Calculus. Let $\chi_B$ be the mole fraction of the *solute*, $B$. If $\chi_B \ll$ 1 , then we may make the following reduction: 
 
 $$
 \begin{eqnarray}
@@ -79,37 +79,37 @@ $$
 -\dfrac{\Delta H_{fus}}{RT^2}dT&=d\chi_B \end{align}
 $$
 
-Now both sides are integrated, with T$^*$ being the melting point of the pure solvent, $A$.
+Now both sides are integrated, with T$^{\*}$ being the melting point of the pure solvent, $A$.
 
 $$
--\dfrac{\Delta H_{fus}}{R} \int_{T^*}^T \dfrac{dT}{T^2} =\int_0^{\chi_B} d\chi_B
+-\dfrac{\Delta H_{fus}}{R} \int_{T^{\*}}^T \dfrac{dT}{T^2} =\int_0^{\chi_B} d\chi_B
 $$
 
  
 $$
 \dfrac{\Delta H_{fus}}{R}
-\bigg(\dfrac{1}{T}-\dfrac{1}{T^*}\bigg) = -\dfrac{\Delta H_{fus}}{R}
-\bigg(\dfrac{1}{T^*}-\dfrac{1}{T}\bigg) =\chi_B
+\bigg(\dfrac{1}{T}-\dfrac{1}{T^\*}\bigg) = -\dfrac{\Delta H_{fus}}{R}
+\bigg(\dfrac{1}{T^\*}-\dfrac{1}{T}\bigg) =\chi_B
 $$
 
-Since $T^*$ and $T$ differ by a small amount relative to $T^*$, we can make the following reductions:
+Since $T^{\*}$ and $T$ differ by a small amount relative to $T^{\*}$, we can make the following reductions:
 
 $$
-\bigg(\dfrac{1}{T^*}-\dfrac{1}{T}\bigg) = \dfrac{1}{TT_{fus}^*}(T-T_{fus}^*)\approxeq\dfrac{\Delta T}{T_{fus}^{*2}}
+\bigg(\dfrac{1}{T^\*}-\dfrac{1}{T}\bigg) = \dfrac{1}{TT_{fus}^*}(T-T_{fus}^{\*})\approxeq\dfrac{\Delta T}{T_{fus}^{\*2}}
 $$
 
 
 $$
--\dfrac{\Delta H_{fus}}{RT_{fus}^{*2}}\Delta T = \chi_B
+-\dfrac{\Delta H_{fus}}{RT_{fus}^{\*2}}\Delta T = \chi_B
 $$
 
  
 
 $$
-\Delta T = -\dfrac{\chi_BRT_{fus}^{*2}}{\Delta H_{fus}} = -K_f\chi_B
+\Delta T = -\dfrac{\chi_BRT_{fus}^{\*2}}{\Delta H_{fus}} = -K_f\chi_B
 $$
 
- $K_f$ is the freezing-point depression constant for the solvent. Before moving on, it is important to look at a *qualitative* conclusion from Equation [7.14](#Eq7-14-Reductions). $\Delta H_{fus}$, $R$, $T^*$, and $\chi_B$ are all *positive* numbers. Thus, $\Delta T$ must be negative which indicates that the melting/freezing temperature is *lowered* by the addition of a solute: *freezing point depression*. Lowering the melting/freezing temperature effectively pushes the solid$\rightarrow$liquid equilibrium forward. Here we have shown by thermodynamic analysis that which we reasoned above with Equations [7.2](#Eq7-2-DSfus) and [7.3](#Eq7-3-ChemicalPotential). Freezing point depression is a useful tool from determining the molar mass of an unknown solute that is soluble in a known solvent. Equation [7.15](#Eq7-15-DeltaT) must be manipulated to be in terms of the molality of $B$ in the solution, $b_B$. In the limit that $\chi_B\ll$1 and $\chi_A\approxeq$1, $b_B$ and $\chi_B$ are related by Equation [7.16](#Eq7-16-bB).
+ $K_f$ is the freezing-point depression constant for the solvent. Before moving on, it is important to look at a *qualitative* conclusion from Equation [7.14](#Eq7-14-Reductions). $\Delta H_{fus}$, $R$, $T^\*$, and $\chi_B$ are all *positive* numbers. Thus, $\Delta T$ must be negative which indicates that the melting/freezing temperature is *lowered* by the addition of a solute: *freezing point depression*. Lowering the melting/freezing temperature effectively pushes the solid $\rightarrow$ liquid equilibrium forward. Here we have shown by thermodynamic analysis that which we reasoned above with Equations [7.2](#Eq7-2-DSfus) and [7.3](#Eq7-3-ChemicalPotential). Freezing point depression is a useful tool from determining the molar mass of an unknown solute that is soluble in a known solvent. Equation [7.15](#Eq7-15-DeltaT) must be manipulated to be in terms of the molality of $B$ in the solution, $b_B$. In the limit that $\chi_B\ll$ 1 and $\chi_A\approxeq$ 1, $b_B$ and $\chi_B$ are related by Equation [7.16](#Eq7-16-bB).
 
 $$
 b_B=\dfrac{n_B}{m_A} =\dfrac{\chi_B n_\text{TOT}}{\chi_A n_\text{TOT} M_A }=\dfrac{\chi_B}{M_A} 
